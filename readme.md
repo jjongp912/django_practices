@@ -39,7 +39,7 @@ DATABASES = {
     }
 }
 ```
-### 7. 장고 프로젝트의 관리 어플리케이션(기본설치)이 자용하는 DB 생성하기
+### 7. 장고 프로젝트의 관리 어플리케이션(기본설치)이 사용하는 DB 생성하기
 ```shell
 (env) # python manage.py migrate
 ```
@@ -81,7 +81,7 @@ import os
 ```
 
 ### 2. helloworld application 만들기
-!) application 생성
+1) application 생성
 ```shell
 (venv) # python manage.py startapp helloworld
 ```
