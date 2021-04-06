@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'mathfilters',
     'guestbook01',
+    'guestbook02',
     'emaillist01',
     'emaillist02',
     'helloworld',
@@ -118,9 +119,9 @@ TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
-USE_L10N = True
-
-USE_TZ = True
+DATETIME_FORMAT = "Y-m-d P h:i:s"
+L10N = False
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
