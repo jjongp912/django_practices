@@ -18,6 +18,7 @@ from django.urls import path
 
 import helloworld.views as helloworldviews
 import emaillist01.views as emaillist01views
+import emaillist02.views as emaillist02views
 import guestbook01.views as guestbook01views
 
 
@@ -31,6 +32,9 @@ urlpatterns = [
     path('emaillist01/',emaillist01views.index),
     path('emaillist01/form', emaillist01views.form),
     path('emaillist01/add', emaillist01views.add),
+
+    path('emaillist02/', emaillist02views.index),
+
 
     path('guestbook01/', guestbook01views.index),
     path('guestbook01/add', guestbook01views.add),

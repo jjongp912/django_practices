@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'mathfilters',
     'guestbook01',
     'emaillist01',
+    'emaillist02',
     'helloworld',
     'django.contrib.admin',
     'django.contrib.auth',
